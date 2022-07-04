@@ -1,45 +1,80 @@
-body{
-    
+body {
+
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 
 
 }
-h1{
+
+h1 {
     font-size: 50px;
-    
-}
-section{
-    display: flex;
-    margin-bottom: 150px;
-    
 
 }
-.first-section{
+
+.half-weight {
+    display: flex;
+    margin-bottom: 150px;
+
+
+}
+
+.first-section {
     background-image: url(/image/top-banner.png);
     background-repeat: no-repeat;
-    
+
 }
-.name-color{
+
+.name-color {
     color: orange;
 }
-.frist-hading-division{
+
+.frist-hading-division {
     width: 50%;
     padding-left: 2%;
 }
-.frist-hading-division img{
+
+.frist-hading-division img {
     width: 70%;
 }
-.linked_button{
+
+.linked_button {
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(orange, tomato);
 }
-.second-section{
+
+.second-section {
     background-image: url(/image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.thard-section {
+    background-image: url(/image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 50px #7a7a7bed;
+    border-radius: 2%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.boder-color-baby {
+    border-left: 5px solid blue;
+}
+
+.boder-color-pro {
+    border-left: 5px solid tomato;
+}
+
+footer p {
+    text-align: center;
+
 }
